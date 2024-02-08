@@ -15,6 +15,7 @@ import os
 
 #initializing pygame
 pygame.init()
+mixer.init()
 
 # importing images and music
 icon = pygame.image.load("icon.png")       # icon image
